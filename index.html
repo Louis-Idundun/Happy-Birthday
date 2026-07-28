@@ -297,6 +297,7 @@
     display:flex; align-items:center; justify-content:center;
     padding: 1rem;
     font-size: 0.95rem;
+    overflow:hidden;
   }
   .flip-front{
     background: var(--secondary);
@@ -872,9 +873,9 @@
     .polaroid .cap{ font-size:0.95rem; }
 
     .cards-grid{ grid-template-columns:repeat(2,1fr); gap:0.8rem; }
-    .flip-card{ height:150px; }
-    .flip-front{ font-size:0.9rem; }
-    .flip-back{ font-size:0.78rem; padding:0.7rem; }
+    .flip-card{ height:150px; overflow:hidden; }
+    .flip-front{ font-size:0.85rem; }
+    .flip-back{ font-size:0.72rem; padding:0.6rem; line-height:1.35; }
 
     .map-frame{ border-radius:20px; }
     .pin{ font-size:1.3rem; }
