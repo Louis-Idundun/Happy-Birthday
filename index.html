@@ -821,6 +821,100 @@
     0%,100%{ opacity:0.4; }
     50%{ opacity:1; }
   }
+
+  /* ============ RESPONSIVE — TABLET (≤768px) ============ */
+  @media(max-width:768px){
+    section{ padding:4rem 5vw; }
+
+    .hero-photo{ width:170px; height:170px; }
+    .hero-photo-ring{ inset:-10px; }
+
+    #hero .moon{ width:55px; height:55px; }
+
+    .timeline-card{ padding:2rem 2rem; }
+    .timeline-photo{ max-width:100%; }
+
+    .polaroid-grid{ gap:1.5rem; }
+
+    .cards-grid{ gap:1.1rem; }
+
+    .album{ flex-direction:column; text-align:center; gap:1.5rem; padding:1.8rem 2rem; }
+    .vinyl{ width:90px; height:90px; }
+    .vinyl::after{ inset:38% 38%; }
+
+    .reveal-box{ padding:2rem 2rem; }
+
+    .envelope{ width:220px; height:152px; }
+    .letter-paper{ padding:2rem 2rem; font-size:1.15rem; }
+
+    .future-grid{ gap:1.1rem; }
+
+    .ending-photo{ width:220px; height:220px; }
+
+    .scroll-top{ bottom:24px; left:auto; right:24px; }
+    #surprise-fade-btn{ bottom:24px; right:80px; }
+  }
+
+  /* ============ RESPONSIVE — PHONE (≤480px) ============ */
+  @media(max-width:480px){
+    section{ padding:3rem 4vw; }
+
+    .hero-photo{ width:130px; height:130px; }
+    .hero-photo-ring{ inset:-8px; }
+
+    #hero .moon{ width:44px; height:44px; top:5%; right:6%; }
+
+    .timeline-card{ padding:1.5rem 1.3rem; border-radius:18px; }
+    .timeline-card p{ font-size:1.05rem; }
+
+    .polaroid-grid{ grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:1.1rem; }
+    .polaroid{ padding:10px 10px 36px; }
+    .polaroid .cap{ font-size:0.95rem; }
+
+    .cards-grid{ grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:0.9rem; }
+    .flip-card{ height:145px; }
+    .flip-front{ font-size:0.95rem; }
+    .flip-back{ font-size:0.82rem; padding:0.8rem; }
+
+    .map-frame{ border-radius:20px; }
+    .pin{ font-size:1.3rem; }
+
+    .vinyl{ width:70px; height:70px; }
+    .vinyl::after{ inset:36% 36%; }
+    #song h3{ font-size:1.2rem; }
+
+    .reveal-box{ padding:1.5rem 1.3rem; font-size:1.1rem; border-radius:16px; }
+
+    .slideshow-wrap{ border-radius:14px; }
+    .ss-btn{ width:38px; height:38px; font-size:0.95rem; }
+
+    .cake-wrap svg{ width:180px; height:auto; }
+
+    .envelope{ width:190px; height:131px; }
+    .envelope .heart-seal{ font-size:1.2rem; }
+    .letter-paper{ padding:1.5rem 1.4rem; font-size:1.05rem; border-radius:8px; max-width:100%; }
+    .letter-photo{ width:100px; height:100px; }
+
+    .future-grid{ grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:0.9rem; }
+    .future-card{ padding:1.4rem 1rem; border-radius:14px; }
+
+    .gift-box{ font-size:4rem; }
+    .coupons{ max-width:100%; }
+    .coupon{ padding:0.7rem 1rem; font-size:0.85rem; }
+
+    .ending-photo{ width:170px; height:170px; border-radius:16px; }
+
+    .scroll-top{ width:38px; height:38px; font-size:0.95rem; bottom:16px; right:16px; }
+    #surprise-fade-btn{ bottom:16px; right:62px; }
+    #mute-btn{ width:38px; height:38px; font-size:0.95rem; top:16px; left:16px; }
+
+    .pill-btn{ padding:0.75rem 1.8rem; font-size:0.9rem; }
+    .splash-heart{ font-size:3rem; }
+
+    #wish-text{ font-size:1.7rem; }
+
+    .toast{ font-size:0.8rem; padding:0.7rem 1.2rem; }
+  }
 </style>
 </head>
 <body>
