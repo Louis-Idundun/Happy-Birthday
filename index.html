@@ -834,9 +834,9 @@
     .timeline-card{ padding:2rem 2rem; }
     .timeline-photo{ max-width:100%; }
 
-    .polaroid-grid{ gap:1.5rem; }
+    .polaroid-grid{ grid-template-columns:repeat(3,1fr); gap:1.5rem; }
 
-    .cards-grid{ gap:1.1rem; }
+    .cards-grid{ grid-template-columns:repeat(3,1fr); gap:1.1rem; }
 
     .album{ flex-direction:column; text-align:center; gap:1.5rem; padding:1.8rem 2rem; }
     .vinyl{ width:90px; height:90px; }
@@ -847,7 +847,7 @@
     .envelope{ width:220px; height:152px; }
     .letter-paper{ padding:2rem 2rem; font-size:1.15rem; }
 
-    .future-grid{ gap:1.1rem; }
+    .future-grid{ grid-template-columns:repeat(2,1fr); gap:1.1rem; }
 
     .ending-photo{ width:220px; height:220px; }
 
@@ -867,14 +867,14 @@
     .timeline-card{ padding:1.5rem 1.3rem; border-radius:18px; }
     .timeline-card p{ font-size:1.05rem; }
 
-    .polaroid-grid{ grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:1.1rem; }
+    .polaroid-grid{ grid-template-columns:repeat(2,1fr); gap:1rem; }
     .polaroid{ padding:10px 10px 36px; }
     .polaroid .cap{ font-size:0.95rem; }
 
-    .cards-grid{ grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:0.9rem; }
-    .flip-card{ height:145px; }
-    .flip-front{ font-size:0.95rem; }
-    .flip-back{ font-size:0.82rem; padding:0.8rem; }
+    .cards-grid{ grid-template-columns:repeat(2,1fr); gap:0.8rem; }
+    .flip-card{ height:150px; }
+    .flip-front{ font-size:0.9rem; }
+    .flip-back{ font-size:0.78rem; padding:0.7rem; }
 
     .map-frame{ border-radius:20px; }
     .pin{ font-size:1.3rem; }
@@ -895,7 +895,7 @@
     .letter-paper{ padding:1.5rem 1.4rem; font-size:1.05rem; border-radius:8px; max-width:100%; }
     .letter-photo{ width:100px; height:100px; }
 
-    .future-grid{ grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:0.9rem; }
+    .future-grid{ grid-template-columns:repeat(2,1fr); gap:0.8rem; }
     .future-card{ padding:1.4rem 1rem; border-radius:14px; }
 
     .gift-box{ font-size:4rem; }
